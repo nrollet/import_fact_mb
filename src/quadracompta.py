@@ -157,7 +157,13 @@ class Compta_Connect():
         except pyodbc.Error :
             logging.error(("erreur requete base {}"
                                 .format(sys.exc_info()[1])))
-            exit()
+    
+    def query_centralisateur-self, journal, periode, folio):
+        """
+        Requete SQL pour obtenir les valeurs qui mettront
+        a jour la table des centralisateurs
+        Param : code journal ("AC", "VT"), periode (datetime), folio (0, 1)
+        """
 
 
     def maj_centralisateur(self, journal, periode, folio):
