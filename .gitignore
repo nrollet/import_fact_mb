@@ -1,6 +1,8 @@
 *.py[cod]
 *.ipl
-
+*.edi
+*.mdb
+import
 # C extensions
 *.so
 
